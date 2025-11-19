@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+.damier{
+    border: 3px solid black;
+    width: 800px;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style:  none;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+}
+li{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+    padding: 0;
+    margin: 0;
+}
+.noir{
+    background-color: black;
+    
+    padding: 0;
+    margin: 0;
+}
+li:hover{
+    background-color: gray;
+}

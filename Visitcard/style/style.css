@@ -1,0 +1,57 @@
+/* font import*/
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+/*body margin ,padding,background color and font*/
+body{
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Neue";
+    font-weight: bold;
+}
+/*header,footer background color ,padding and text color*/
+header , footer{
+    background-color: rgb(255, 87, 51);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+/*presentation border , background color */
+.presentation{
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: auto;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(79, 78, 78, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+/* Changement couleur */
+.mail{
+    color:rgb(255, 87, 51) ;
+}
+/* image border ,margin, dimensions*/
+.image{
+    margin-left: 170px;
+    border: 4px solid rgb(255, 87, 51);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+/* h2 border bottom */
+h2{
+    border-bottom: 1px solid rgb(255, 87, 51);
+    padding-bottom: 10px;
+}
+/*article CSS*/
+.coordonnees,.super-pouvoirs,.reseauxsociaux{
+    margin-left: 10px;
+    
+}
+.reseauxsociaux{
+    color:rgb(255, 87, 51) ;
+}

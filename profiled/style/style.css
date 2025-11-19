@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: rgb(144, 238, 144);
+}
+header{
+    text-align: center;
+    background-color: rgb(100, 149, 237);
+    padding: 20px;
+}
+h1{
+    color: azure;
+    font-size: 36px;
+}
+.profile,.posts{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(194, 194, 194);
+    background-color: white;
+    border-radius: 8px;   
+}
+.profile p{
+    border: 1px solid rgb(194, 194, 194);
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 10px;
+}
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.post{
+    border-bottom: 1px solid #eeee;
+    padding: 10px 0;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+.social-links{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+#twitter{
+    color: #1d9bf0;
+}
+#linkedin{
+    color: #0a66c2;
+}
+#github{
+    color: #24292f;
+}
