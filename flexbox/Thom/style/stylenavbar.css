@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header CSS*/
+header{
+    background-color: rgb(243, 243, 243);
+    font-size: 20px;
+}
+.upperside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    width: 465px;
+    height: 105px;
+}
+.glass{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+.heart{
+    width: 65px;
+    height: 65px;
+}
+.french,.user,.cart{
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+.cart{
+    margin-right: 25px ;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 15px; 
+}
+.contact{
+    margin-left: 35px;
+}
+.guarantees{
+    margin-right: 35px; 
+}
+.logomenu{
+    width: 45px;
+    height: 45px;
+    margin-left: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotdeals{
+    margin-left: -80px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    width: 465px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid rgb(150, 149, 149);
+    border-radius: 10px;
+}
+.search{
+    border: 0px;
+    width: 350px;
+    height: 25px;
+}
+.products{
+    background-color: black;
+    height: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.productlist a{
+     color:white ;
+     text-decoration: none;
+}
+.productlist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
