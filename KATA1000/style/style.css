@@ -1,221 +1,212 @@
-/* ------------reset CSS-------------------------*/
-*{
-    margin: 0;
-    padding: 0;
+/* Reset*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100vh;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(245, 245, 245);
+}
+/*header CSS*/
+header {
+  background-color: white;
+  width: 97vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 1vh auto 1vh auto;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-top: 10px;
+}
+.searching {
+  display: flex;
+  justify-content: right;
+  width: 85%;
+  background-color: rgb(245, 245, 245);
+  border-radius: 15px;
+}
+.searching input {
+  border-radius: 15px;
+  border: 0;
+  width: 90%;
+  background-color: rgb(245, 245, 245);
 }
 
-/*Add bgcol for flex*/
-body{
-    height: 100vh;
-    background-color: rgb(136, 136, 135);
-    display:flex ;
+img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
 
-/* ----------------------header CSS -------------------*/
-header{
-    background-color: rgb(255, 255, 255); 
-    flex:  1;
-    height: 100vh;
+  flex: 12;
+}
+.main_menu {
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px 5px 5px;
+  background-color: white;
+  width: 98%;
+  height: 5vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+nav p {
+  margin-right: auto;
+}
+nav {
+  margin-right: 1rem;
+}
+
+.main_section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgb(139, 171, 216);
+}
+.main_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  width: 20%;
+  background-color: rgb(91, 135, 196);
+  border-radius: 15px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+.message_container {
+  display: flex;
+  flex-direction: column;
+}
+.message_sender {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin-right: auto;
+  width: auto;
+  max-width: 65%;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+}
+.messages_user,
+.message_sender {
+  background-color: rgb(120, 227, 120);
+  display: flex;
+  flex-direction: column;
+
+  max-width: 65%;
+  margin-right: 10px;
+  margin-bottom: 1rem;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+}
+.messages_user {
+  background-color: rgb(120, 227, 120);
+  margin-left: auto;
+}
+.message_sender {
+  background-color: white;
+  margin-right: auto;
+}
+time {
+  margin-left: auto;
+}
+.message_zone {
+  background-color: rgb(245, 245, 245);
+  width: 85%;
+  height: 3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 10px 5px 10px 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+textarea {
+  width: 80%;
+  border: 0;
+  background-color: rgb(245, 245, 245);
+}
+button {
+  border: 0;
+}
+@media screen and (min-width: 768px) {
+  body {
+    flex-direction: row;
+  }
+  main {
+    flex: 5;
+  }
+  header {
+    flex-direction: column;
+    flex: 1;
+  }
+  .contact_section {
     display: flex;
     flex-direction: column;
-} /*Add bgcol for flex*/
-
-/*nav Css*/
-nav{
-    height: 5vh;
-    display: flex;
+    margin-top: 20px;
+  }
+  .contact {
+    display: flex !important;
     align-items: center;
-    background-color: white;
-    border-right: 1px solid rgb(239, 238, 238);
-    border-top: 2px solid rgb(239, 238, 238);;
-} /*Add bgcol for flex*/
-/* contact_section */
-nav img{
-    width: 8%;
-    margin-left: 3%;
-}
-.searching{
-    display: flex;
-    background-color: rgb(239, 238, 238);
-    border: 1px solid rgb(231, 231, 231);
-    border-radius: 7px;
-    padding: 1%;
-    width: 80%;
-    margin:auto;
-}
-.searching input{
-   background-color: rgb(239, 238, 238);
-   border: 0px;
-}
-.contact_section{
-    flex: 1;
-    max-height: 95vh;
-    overflow-y: auto;
-  
-    background-color: rgb(255, 255, 255);
-}
-.user_pic{
-    width: 20%;
-    height: 20%;
-}
-/* UL Css*/
-ul{
-    margin-top: 5%;
-    padding-left: 10%;
-    list-style: none;
-    align-items: center;
-} /*Add bgcol for flex*/
-li{
-    display: flex;
-    align-items: center;
-}
-nav input{
-    margin: auto 10% auto auto;
-    flex: 3;
-}
-nav p{
-    margin: auto auto auto 5%;
-    flex: 1;
-}
-h2{
-    font-size: 0.8rem;
-}
-/*--------------------Main css--------------- ------*/ 
-main{
-    
-    flex: 3;
+    width: 220px;
+    margin-bottom: 10px;
+  }
+  .contact p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 12px;
+  }
+  .circle {
+    width: 10px;
+    height: 10px;
+  }
+  .message_container {
+    width: 54rem;
+  }
+  .message_zone {
+    width: 54rem;
+  }
+  .notification {
     display: flex;
     flex-direction: column;
-}/*Add bgcol for flex*/
-
-/* Article "main_menu CSS */
-.main_menu{
-    background-color: rgb(255, 255, 255);
-    height: 5vh;
-    display: flex;
-    
-} /*Add bgcol for flex*/
-.main_menu img{
-    width: 20px;
-    height: 70%;
-}
-.main_menu p{
-    width: 120px;
-}
-.contact_search{
-    display: flex;
-    width: 60%;
-    background-color:rgb(239, 238, 238);
-    border-radius: 10px;
-    
-}
-.magnifying_glass{
-    margin-right: 2%;
-}
-.main_menu input{
-    margin: auto;
-    flex:2;
-    border: 0;
-    border-radius: 10px;
-    background-color: rgb(239, 238, 238);
-   
-}
-.main_menu p{
-    margin: auto ;
-    flex: 1;
-    padding-left: 1%;
-}
-/*Section CSS*/
-.main_section{
-    background-color: rgba(11, 128, 246, 0.427);
-    max-height: 100vh;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-/* main_area CSS*/
-.main_area{
-    flex:3;
-    width: 80%;
-    max-height: 535px;
-    margin: 3% auto auto auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 3%;
-    overflow-y: auto;
-}
-/*Message container CSS*/
-.message_container{
-    width: 100%;
-    margin:auto;
-    flex: 1;
-    overflow-y: auto;
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-/*messages CSS*/
-.message_sender{
-    padding: 2% 2%;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin-right: auto;
-    width: auto;
-    max-width: 310px;
-    display: flex;
-    flex-direction: column;
-
-}
-.messages_user{
-    padding: 2% 2%;
     margin-left: auto;
-    width: auto;
-    background-color: #78e378;
-    border-radius: 10px;
-    display: flex;
-    max-width: 310px;
-    flex-direction: column;
+    font-size: 0.5rem;
+  }
+  h2 {
+    font-size: 12px;
+  }
 }
-time{
-    margin-left: auto;
-    font-size: 70%
-}
-.white_text{
-    color: white;
-}
-/*H1 CSS*/
-h1{
-    text-align: center;
-    font-size: 1rem;
-    background-color: rgb(97, 97, 216);
-    border-radius: 7px;
-    width: 4rem;
-    color: white;
-}
-/* main form CSS */
-form{
-    margin: 3% auto 3% auto;
-    padding: 1% 0;
-    width: 80%;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-textarea{
-    width: 80%;
-    background-color: rgba(201, 201, 201, 0.212);
-    border-radius: 20px;
-    border: 0px;
-}
-button{
-    width: 5%;
-    border-radius: 40%;
-    border: 0px;
+
+.contact_section {
+  display: none;
 }

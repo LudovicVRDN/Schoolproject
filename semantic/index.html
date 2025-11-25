@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Shop</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <!--Header side-->
+    <header>
+        <!-- H1 for the header -->
+        <h1>Shop & News</h1><!---H1 Représente le titre principal de la page placé dans le header-->
+        <!-- Nav bar -->
+        <nav>
+            <!---La nav sert à distinguer les liens permettant à naviguer sur les différentes pages ou parties du site-->
+            <!-- Listing all links for nav bar -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main Section-->
+    <main>
+        <section class="shop">
+            <!-- Section for Featured Products -->
+            <!-- h2  -->
+            <h2>Featured Products</h2>
+            <section class="featured_products">
+                 <!-- J'utilise section car elle est une partie de main qui restera fixe-->
+                <!---Ici h2 indique chaque parties du site pour que l'utilisateur sache facilement ou il se situe-->
+                <!-- Create article for each one of the products-->
+                <article class="products">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/1/150/100" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>Price : $79.99</p>
+                    <button>Add To Cart</button>
+                    <!---J'utilise  un bouton car il ne redirige pas vers une autre page / partie du site il a un but interactif -->
+                </article>
+                <!-- Create article for each one of the products-->
+                <article class="products"><!---Article permet de dissocier chaque produit -->
+                    <img src="https://picsum.photos/id/2/150/100" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>Price :$89.99</p>
+                    <button>Add To Cart</button>
+                    <!---J'utilise  un bouton car il ne redirige pas vers une autre page / partie du site il a un but interactif -->
+                </article>
+                <!-- Create article for each one of the products-->
+                <article class="products"><!---Article permet de dissocier chaque produit -->
+                    <img src="https://picsum.photos/id/3/150/100" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>Price :$99.99</p>
+                    <button>Add To Cart</button>
+                    <!---J'utilise  un bouton car il ne redirige pas vers une autre page / partie du site il a un but interactif -->
+                </article>
+            </section>
+        </section>
+        
+        <section class="specials_offers">
+
+            <h2>Specials offers</h2>
+            <section class="offers"><!-- J'utilise section car elle est une partie de main qui restera fixe-->
+                <article class="offer">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/12/150/100" alt="Offers 1">
+                    <h3>50% Off on Product 4</h3>
+                    <p>Get 50% off on your next purchase of Product 4.Limited time offer !</p>
+                    <a href="#">Shop Now</a>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </article>
+                <article class="offer">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/13/150/100" alt="Offers 2">
+                    <h3>Buy 1 Get 1 Free on Product 5 </h3>
+                    <p>Exclusive offer buy one and get another one absolutely free !</p>
+                    <a href="#">Shop Now</a>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </article>
+            </section>
+        </section>
+
+        <section class="customer_reviews"><!-- J'utilise section car elle est une partie de main qui restera fixe-->
+            <h2>Customers Reviews</h2>
+            <section class="review">
+                <article class="reviews">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <h3>John Doe</h3>
+                    <p>"Amazing products ! I love the quality and the customer service was excellent."</p>
+                </article>
+                <article class="reviews">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <h3>Jane Smith</h3>
+                    <p>"Great shopping experience. Fast delivery and the products are just as described."</p>
+                </article>
+                <article class="reviews">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <h3>David Johnson</h3>
+                    <p>"I highly recommend this shop. Fantastic deals and reliable service.</p>
+                </article>
+            </section>
+        </section>
+        <section class="latest_news"><!-- J'utilise section car elle est une partie de main qui restera fixe-->
+            <h2>Latest News</h2>
+            <section class="news">
+                <article class="new">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/22/150/100" alt="News 1">
+                    <h3>Breaking News 1</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Quisque fermentum...</p>
+                    <a href="#">Read More</a>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </article>
+                <article class="new">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/23/150/100" alt="News 2">
+                    <h3>Breaking News 2</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Quisque fermentum...</p>
+                    <a href="#">Read More</a>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </article>
+                <article class="new">
+                    <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+                    <img src="https://picsum.photos/id/25/150/100" alt="News 3">
+                    <h3>Breaking News 3</h3>
+                    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Quisque fermentum...</p>
+                    <a href="#">Read More</a>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="contact_us">
+            <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+            <h3>Contact Us</h3>
+            <p>Email :<a href="mailto:info@shopandnews.com"> info@shopandnews.com</a></p>
+            <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+            <p>Phone: +1 123 456 7890</p>
+        </section>
+        <section class="social">
+            <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+            <h3>Follow Us</h3>
+            <nav>
+                <ul>
+                    <li><a href="https://www.facebook.com/?locale=fr_FR">Facebook</a></li>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                    <li><a href="https://x.com/?lang=fr">Twitter</a></li>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+                </ul>
+            </nav>
+        </section>
+        <p>
+            <!---Article permet de dissocier chaque produit j'utilise article plutôt que section car il peut être enelevé / déplacé -->
+            ©2024 Shop & News - All rights reserved ｜<a class="legal" href="#">Legal Notice</a>
+            <!---la balise <a> A pour but de rediriger l'utilisateur vers une autre page ou une autre partie du site -->
+        </p>
+    </footer>
+
+</body>
+
+</html>

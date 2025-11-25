@@ -1,0 +1,186 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* General*/
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+body {
+  background-color: rgb(244, 244, 244);
+}
+img {
+  width: 90%;
+  height: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+h3 {
+    margin-top: 2%;
+  margin-bottom: 2%;
+}
+h2 {
+  margin-left: 1%;
+}
+/* Header section CSS*/
+header,
+footer {
+  background-color: rgb(51, 51, 51);
+  height: auto;
+  width: 98vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vh auto 1vh auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  gap:0.5rem;
+}
+h1 {
+  margin: auto auto 1rem auto;
+}
+/* header Media querry  for desktop */
+@media screen and (min-width: 768px) {
+  ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+}
+/* Main CSS*/
+
+/* Shop CSS */
+.featured_products {
+  margin-left: 1%;
+}
+.products,
+.offer,
+.new {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: 1rem auto 1rem auto;
+  background-color: white;
+  border: 1px solid rgba(158, 157, 157, 0.385);
+}
+.products p {
+  color: rgb(56, 56, 56);
+}
+button,
+.offer a {
+  color: white;
+  background-color: blue;
+  width: 80%;
+  height: 35px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 7px;
+  border: 0;
+}
+/* Special offers CSS */
+
+.offer p,
+.new p {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.offer a {
+  padding-top: 0.5rem;
+  text-align: center;
+}
+/*Reviews CSS*/
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin: 1rem 1rem 1rem 1rem;
+  background-color: white;
+  border: 1px solid rgba(158, 157, 157, 0.385);
+  padding: 2rem 2rem 2rem 2rem;
+}
+.reviews p {
+  text-align: center;
+}
+/*News CSS*/
+.new a {
+  color: blue;
+  margin-bottom: 1rem;
+}
+/* Media querry main*/
+@media screen and (min-width: 768px) {
+  /*Products and offer media querries*/
+  .featured_products,
+  .offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+  }
+  .news {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .new {
+    height: auto;
+    max-width: 450px;
+  }
+  .products {
+    max-width: 350px;
+    min-width: 250px;
+    height: auto;
+  }
+  .offer {
+    max-width: 300px;
+    min-width: 250px;
+    height: auto;
+  }
+  button,
+  .offer a {
+    width: 40%;
+  }
+  /*Review media querries*/
+  .review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+  }
+  .reviews {
+    max-height: 140px;
+    padding: 1rem 0 1rem 0;
+    width: 16rem;
+  }
+}
+/*Footer CSS*/
+.contact_us a,
+.legal {
+  color: blue;
+}
