@@ -75,6 +75,9 @@ nav p {
 nav {
   margin-right: 1rem;
 }
+.contact_section {
+  display: none;
+}
 
 .main_section {
   display: flex;
@@ -207,6 +210,4 @@ button {
   }
 }
 
-.contact_section {
-  display: none;
-}
+
