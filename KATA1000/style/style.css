@@ -19,7 +19,7 @@ header {
   width: 97vw;
   height: 100%;
   display: flex;
-  align-items: center;
+  
   flex: 1;
   margin: 1vh auto 1vh auto;
 }
@@ -161,6 +161,29 @@ textarea {
 button {
   border: 0;
 }
+
+.contact_section{
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 50vh;
+    padding-left: 0.2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    display: none;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+   overflow-y: auto;
+}
+.contact_section.open{
+    display: flex !important;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.915);
+    position: absolute;
+    
+}
 @media screen and (min-width: 768px) {
   body {
     flex-direction: row;
@@ -176,6 +199,13 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    border:0;
+    margin-left: 0;
+    margin-bottom: 0;
+    background-color: white;
+    padding:0;
+    overflow-y: unset;
+
   }
   .contact {
     display: flex !important;
@@ -207,6 +237,11 @@ button {
   }
   h2 {
     font-size: 12px;
+  }
+  nav {
+    margin-right: 0;
+    margin-left: 0;
+    
   }
 }
 
